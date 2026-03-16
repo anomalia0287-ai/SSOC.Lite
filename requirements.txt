@@ -1,0 +1,9 @@
+# 핵심 의존성
+anthropic
+slack-bolt
+fastapi
+uvicorn
+apscheduler
+python-dotenv
+
+# SQLite 는 Python 표준 라이브러리 — 추가 설치 불필요
