@@ -32,8 +32,6 @@ v3.1 → v4.0 변경 내역:
 환경 변수 (신규):
   DB_PATH  — SQLite 파일 경로 (기본: /data/notice_bot.db)
 """
-import os
-print("ENV KEYS:", list(os.environ.keys()))
 import os, json, re, time, logging
 from datetime import date
 from dotenv import load_dotenv
